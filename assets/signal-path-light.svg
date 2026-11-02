@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="240" viewBox="0 0 960 240" fill="none" role="img" aria-labelledby="title description">
+  <title id="title">From code to a running service</title>
+  <desc id="description">An original circuit-board illustration connecting a terminal, cloud infrastructure and a service. A brief signal animation settles into a static diagram.</desc>
+  <style>
+    .signal { stroke-dasharray: 12 280; animation: travel 1.6s linear 3; }
+    @keyframes travel { from { stroke-dashoffset: 292; } to { stroke-dashoffset: 0; } }
+    @media (prefers-reduced-motion: reduce) { .signal { animation: none; } }
+  </style>
+  <defs>
+    <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M24 0H0V24" stroke="#CADCD8" stroke-opacity=".55"/>
+    </pattern>
+    <linearGradient id="wash" x1="0" y1="0" x2="960" y2="240" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#E9F6F1"/>
+      <stop offset=".55" stop-color="#F3F7FA"/>
+      <stop offset="1" stop-color="#F9EEE8"/>
+    </linearGradient>
+  </defs>
+  <rect x="1" y="1" width="958" height="238" rx="22" fill="url(#wash)" stroke="#BBCFCB"/>
+  <rect x="1" y="1" width="958" height="238" rx="22" fill="url(#grid)"/>
+  <path d="M62 36H104M62 36V52M898 204H856M898 204V188" stroke="#708B8C" stroke-width="2"/>
+  <path d="M286 120H384M576 120H674" stroke="#9BBDB5" stroke-width="2"/>
+  <path class="signal" d="M286 120H384M576 120H674" stroke="#16705C" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="334" cy="120" r="4" fill="#16705C"/>
+  <circle cx="626" cy="120" r="4" fill="#A35431"/>
+  <g stroke-width="2">
+    <rect x="94" y="62" width="192" height="116" rx="14" fill="#FFFFFF" stroke="#719F96"/>
+    <path d="M94 88H286" stroke="#CADCD8"/>
+    <circle cx="110" cy="75" r="3" fill="#A35431"/>
+    <circle cx="122" cy="75" r="3" fill="#927724"/>
+    <circle cx="134" cy="75" r="3" fill="#16705C"/>
+    <path d="M120 111L132 121L120 131M144 131H160" stroke="#16705C" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M180 114H254M180 126H238M120 151H212" stroke="#718A97" stroke-linecap="round"/>
+    <rect x="384" y="62" width="192" height="116" rx="14" fill="#FFFFFF" stroke="#719F96"/>
+    <path d="M434 121C421 121 418 102 431 97C433 77 464 75 471 95C487 90 501 104 496 117C507 118 514 131 506 140H437" stroke="#16705C" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M449 151H511M461 161H499" stroke="#718A97" stroke-linecap="round"/>
+    <rect x="674" y="62" width="192" height="116" rx="14" fill="#FFFFFF" stroke="#B48E7D"/>
+    <rect x="698" y="84" width="144" height="24" rx="5" stroke="#718A97"/>
+    <rect x="698" y="116" width="144" height="24" rx="5" stroke="#718A97"/>
+    <circle cx="712" cy="96" r="3" fill="#16705C" stroke="none"/>
+    <circle cx="712" cy="128" r="3" fill="#16705C" stroke="none"/>
+    <path d="M726 96H764M726 128H782M804 96H826M804 128H826" stroke="#718A97" stroke-linecap="round"/>
+    <path d="M698 157H740L748 149L758 163L770 153H842" stroke="#A35431" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <path d="M190 178V204H480V178M480 204H770V178" stroke="#9BBDB5" stroke-dasharray="3 6"/>
+  <circle cx="480" cy="204" r="4" fill="#16705C"/>
+</svg>
