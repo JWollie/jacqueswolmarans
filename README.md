@@ -17,6 +17,17 @@ I like useful software, understandable systems, and automating the jobs nobody w
 [LinkedIn](https://www.linkedin.com/in/jacques-wolmarans/) &nbsp; / &nbsp; [Public repos](https://github.com/jacqueswolmarans?tab=repositories)
 
 ---
+### Usually somewhere in this lot
+
+**Cloud & infrastructure** / AWS, Terraform, Kubernetes, Docker, Linux<br>**Code & automation** / Python, Go, Bash, Git, CI/CD<br>**Visibility** / Prometheus, Grafana, Loki
+
+Tools are the means, not the personality. I'll take a simple solution over another box on the architecture diagram.
+
+---
+
+**Build useful things. Leave fewer manual steps behind.**
+
+---
 
 ### From idea to "it's running"
 
@@ -36,12 +47,4 @@ I like useful software, understandable systems, and automating the jobs nobody w
 
 [**SRE-CloudHub**](https://github.com/jacqueswolmarans/SRE-CloudHub)<br>A cloud/SRE learning repo exploring Terraform, Ansible, Kubernetes and observability on AWS.
 
-### Usually somewhere in this lot
-
-**Cloud & infrastructure** / AWS, Terraform, Kubernetes, Docker, Linux<br>**Code & automation** / Python, Go, Bash, Git, CI/CD<br>**Visibility** / Prometheus, Grafana, Loki
-
-Tools are the means, not the personality. I'll take a simple solution over another box on the architecture diagram.
-
 ---
-
-**Build useful things. Leave fewer manual steps behind.**
